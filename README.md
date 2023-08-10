@@ -10,10 +10,14 @@ We use Kinect V2 to take the imgaes, then we use [yolov7](https://github.com/Won
  2. NumPy
  3. freenect2 from [here](https://rjw57.github.io/freenect2-python/)
  4. After installing freenect2, got to the [init](https://github.com/rjw57/freenect2-python/blob/master/freenect2/__init__.py) file in the installation directory and change this from:
-`class QueueFrameListener(object):
+```python
+class QueueFrameListener(object):
     def __init__(self, maxsize=16):
-        self.queue = Queue(maxsize=maxsize)`
+        self.queue = Queue(maxsize=maxsize)
+```
 to:
-`class QueueFrameListener(object):
+```python
+class QueueFrameListener(object):
     def __init__(self, maxsize=1):
-        self.queue = Queue(maxsize=maxsize)`
+        self.queue = Queue(maxsize=maxsize)
+```
