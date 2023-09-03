@@ -2,7 +2,7 @@
 # ALIK
 ALIK (or Auto Labeling Images with Kinect) is a vision algorithm that can help us to do the labeling images step - one of the object detection AI training steps - automatically.
 
-We use Kinect V2 to take the imgaes, then we use [yolov7](https://github.com/WongKinYiu/yolov7) to test and train the data.
+We use Kinect V2 to take the images, then we use [Yolov7](https://github.com/WongKinYiu/yolov7) to test and train the data.
 
 ## Installation and Prerequisites:
 
